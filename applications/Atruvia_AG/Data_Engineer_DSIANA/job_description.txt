@@ -1,0 +1,99 @@
+Atruvia AG • Karlsruhe, Münster
+Data Engineer (m/f/d) | DSIANA
+
+
+Karlsruhe, Münster
+
+immediately
+
+We are the digitalization partner of the cooperative financial group, combining decades of banking expertise with state-of-the-art information technology. Our IT solutions and services, specifically tailored to banks, range from data center operations and the agree21 banking system to app development. As a German-speaking company, we utilize forward-looking technologies such as artificial intelligence and smart data, and we place great emphasis on process optimization, security, and regulatory compliance.
+
+Our goal is to enable innovative digital banking and near-banking experiences for over 900 banks and more than 30 million bank customers. Therefore, we systematically invest in the expertise of our more than 5,500 employees and consider sustainability a strategic corporate objective.
+
+Our collaborative model is characterized by an agile, cross-functional approach across all business units. We connect the people and markets of tomorrow – simply, digitally, and securely.
+
+For our Data, Security & Identity business unit within the Analytics Tribe, we are looking for a Data Engineer (m/f/d) to join our team in Karlsruhe or Münster, either full-time or part-time (minimum 30 hours per week). Your role will be within the Data Ignite Squad, where you will collaborate with 8 colleagues across multiple locations and with various interfaces.
+
+
+
+Tasks with perspectives
+
+
+You will work in an agile team with true full-stack responsibility for the development, automation, and further development of a scalable data platform – based on a hybrid cloud architecture (on-premise & public cloud).
+
+You are responsible for the stable provision and further development of our on-premises data infrastructure (S3, OpenShift, Docker, Airflow) as well as for the design of the cloud platform based on Databricks.
+
+You develop and operate robust data pipelines for internal data supply – with a focus on tenant separation, governance, reproducibility and performance.
+
+You will work closely with our customers and support them directly in projects on their own Databricks environment – from data integration and pipeline development to productive operation.
+
+You actively contribute to the platform architecture and toolchain design – especially with regard to infrastructure automation (Terraform), monitoring and CI/CD processes.
+
+You are part of an agile, interdisciplinary team and, together with our team and customers, you create sustainable, production-ready data solutions.
+
+
+Personality with a profile
+
+
+You have completed a relevant degree in (business) informatics, mathematics or comparable qualifications and bring several years of relevant experience in the field of data engineering
+
+You have in-depth knowledge of Python as well as in the development and orchestration of data pipelines using, for example, Apache Airflow.
+
+You have practical experience in containerized environments (Docker, OpenShift) and are confident in handling object-based storage (e.g., S3).
+
+You are familiar with development on Databricks – including Delta Lake, Notebooks, MLflow, Unity Catalog – and are able to implement customer projects on their Databricks instance.
+
+You have experience with cloud infrastructures (Azure/AWS/Google) and Infrastructure-as-Code (Terraform) as well as a good understanding of CI/CD and automated platform operation.
+
+You are customer-oriented, have strong communication skills and a confident demeanor – even in consulting-related situations.
+
+You are open to new technologies and have a strong willingness to continuously develop yourself.
+
+You have fluent German skills (at least C1 level) as well as a) fluent English skills (C1) or b) good English skills (at least B2).
+
+You work in a structured, independent and team-oriented manner – both within our team and in direct collaboration with customers.
+
+
+
+Our advantages at a glance:
+In addition to an attractive salary and 30 days of vacation, we offer you the following benefits:
+
+
+Flexible working: We work in a balanced hybrid mix of remote work and presence in modern office environments (activity-based working).
+
+Work-life balance: With our individual working time models such as part-time work, the option of full-time work between 30-40 hours and our lifetime working time account (sabbatical and/or leave of absence before retirement) you will find the right balance.
+
+Balancing private life and career: We offer you a family budget and support in special family situations such as caring for family members.
+
+Individual benefits: You have the choice between bike leasing, IT hardware leasing, employee savings plans and/or an additional day off, as well as company pension schemes and other options.
+
+Onboarding: We welcome you to our welcome event #enter; you can also expect structured onboarding with a mentor and regular feedback sessions with your People Lead.
+
+Health Management – Health, Family and Life: We support and guide you through our programs, including collaborations with the family cooperative and voiio. Enjoy a diverse range of meals in our company restaurants and connect with others through our sports activities.
+
+Career model and further training: In our development dialogues you discuss your professional, methodological and personal career goals and pursue them using our diverse range of further training opportunities.
+
+Our company values: Respectful, open and honest, responsible, supportive of one another and results-oriented – guided by team spirit and the desire for innovation and intensive knowledge exchange.
+
+Future security and job security: As a cooperative company with decades of experience, we are pioneers of digital transformation in the banking world and a systemically important employer.
+
+Kununu: We are a Top Company 2025 and proud of a Kununu score of 4.2 and a recommendation rate of ≥ 90%.
+
+
+
+Please use our application portal exclusively for your application. We look forward to hearing from you.
+
+Apply now!
+
+
+#atruvia #it-jobs #wearehiring #LI-hybrid #LI-AT1 #Agile Software Development #Customer Focus #Innovative Thinking
+
+Reference number: 1133
+
+Contact person
+
+Laura Dewald
+
+Send an emailEmail copied!Copy email?
+
++49 1512 8063476

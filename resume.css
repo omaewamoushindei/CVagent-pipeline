@@ -1,0 +1,220 @@
+/* =========================================
+   CSS KONTROL PANELİ (Değişkenler)
+   ========================================= */
+:root {
+  /* Font Ayarlari */
+  --main-font: 'Inter', 'Roboto', 'Segoe UI', Arial, sans-serif;
+  --base-size: 9.8pt;
+  --h1-size: 21pt;
+  --h2-size: 11pt;
+  
+  /* Renkler (tema degisimi icin semantik tokenlar) */
+  --color-primary: #2c3e50;
+  --color-text: #333333;
+  --color-text-soft: #555555;
+  --color-text-muted: #666666;
+  --color-line: #dcdde1;
+
+  /* Geriye donuk degisken adlari */
+  --primary-color: var(--color-primary);
+  --text-color: var(--color-text);
+  --line-color: var(--color-line);
+  
+  /* Bosluklar */
+  --line-height: 1.33;
+  --section-spacing: 11px;
+  
+  /* Fotograf Ayarlari */
+  --photo-size: 92px;
+  --photo-radius: 50%;
+}
+
+/* =========================================
+   TEMEL SAYFA AYARLARI (A4 Formatı)
+   ========================================= */
+body {
+  font-family: var(--main-font);
+  font-size: var(--base-size);
+  color: var(--text-color);
+  line-height: var(--line-height);
+  background-color: white;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+@page {
+  margin: 12mm;
+  size: A4;
+}
+
+/* Global sayfa kirilim dayanimi */
+h1,
+h2,
+h3,
+.resume-header,
+.header-info {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+h2,
+h3 {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+ul {
+  break-before: avoid;
+  page-break-before: avoid;
+}
+
+p,
+li {
+  orphans: 2;
+  widows: 2;
+}
+
+/* =========================================
+   ÜST BİLGİ VE FOTOĞRAF (FlowCV Stili Header)
+   ========================================= */
+.resume-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--section-spacing);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 12px;
+}
+
+.profile-pic {
+  width: var(--photo-size);
+  height: var(--photo-size);
+  border-radius: var(--photo-radius);
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.header-info h1 {
+  margin: 0;
+  font-size: var(--h1-size);
+  color: var(--primary-color);
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.header-info p {
+  margin: 3px 0 0 0;
+  font-size: var(--base-size);
+  color: var(--color-text-soft);
+}
+
+/* =========================================
+   BÖLÜM BAŞLIKLARI (Profile, Education vs.)
+   ========================================= */
+h2 {
+  font-size: var(--h2-size);
+  color: var(--primary-color);
+  text-transform: uppercase; /* Bütün harfleri büyük yapar */
+  letter-spacing: 1.3px;
+  margin-top: var(--section-spacing);
+  margin-bottom: 6px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--line-color);
+}
+
+h3 {
+  font-size: 10.5pt;
+  color: #000;
+  margin-top: 9px;
+  margin-bottom: 1px;
+}
+
+/* =========================================
+   MADDE İŞARETLERİ VE PARAGRAFLAR
+   ========================================= */
+p {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+ul {
+  margin-top: 1px;
+  margin-bottom: 6px;
+  padding-left: 16px;
+}
+
+li {
+  margin-bottom: 1px;
+}
+
+/* Teknik yetkinlikler: iki sutunlu kompakt grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px 12px;
+  margin-top: 1px;
+  margin-bottom: 6px;
+}
+
+.skill-item {
+  margin: 0;
+  font-size: 9.2pt;
+  line-height: 1.26;
+  color: var(--color-text);
+}
+
+.skill-item strong {
+  font-weight: 700;
+  color: #1f2f40;
+}
+
+/* Giris satiri: sol (kurum/rol), sag (lokasyon + tarih) */
+.entry-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.entry-left {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.entry-right {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-style: italic;
+  color: var(--color-text-muted);
+  text-align: right;
+  padding-left: 8px;
+}
+
+@media print {
+  /* Markdown PDF bazli render motorlerinde hizalama farklarini azaltir */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow: visible;
+  }
+
+  .entry-line {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .skills-grid,
+  .skill-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  p,
+  li {
+    orphans: 2;
+    widows: 2;
+  }
+}
