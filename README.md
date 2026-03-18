@@ -30,23 +30,25 @@ This is not a traditional script-based tool. **YOU** and your **IDE's AI Copilot
 
 ## Quick Start
 
-> **[span_1](start_span)Live Demo:** This repository comes pre-populated with sample career data (`raw/sample.md`) and a generated application for a Data Engineer role at Atruvia AG[span_1](end_span). Explore `career_vault/` and `applications/` to see the pipeline in action before starting your own.
+> **Live Demo:** This repository comes pre-populated with sample career data (`raw/sample.md`) and a generated application for a Data Engineer role at Atruvia AG. Explore `career_vault/` and `applications/` to see the pipeline in action before starting your own.
 
 1. **Start Fresh:** Delete the contents of `career_vault/` and existing `applications/` folders.
-2. **[span_2](start_span)Input Data:** Put your source notes in `raw/`[span_2](end_span).
-3. **[span_3](start_span)Execute:** Run prompts in order from `01_ingest_and_sort.md` to `07_cover_letter_and_render.md`[span_3](end_span).
-4. **[span_4](start_span)Targeting:** Create `applications/<Company_Name>/<Position_Name>/`, add `job_description.txt`, and save your tailored outputs there[span_4](end_span).
+2. **Input Data:** Put your source notes in `raw/`.
+3. **Execute:** Run prompts in order from `prompts/01_ingest_and_sort.md` to `prompts/07_cover_letter_and_render.md`.
+4. **Targeting:** Create `applications/<Company_Name>/<Position_Name>/`, add `job_description.txt`, and save your tailored outputs there.
 
 ## 🤝 Contributing (The LLMOps Framework)
 
-[span_5](start_span)We use a strict, objective **Evaluation Framework** to ensure prompt improvements are mathematically superior, not just subjective[span_5](end_span).
+We use a strict, objective **Evaluation Framework** to ensure prompt improvements are mathematically superior, not just subjective.
 
 ### How to Propose a Change:
 1. **Benchmark:** Run your modified prompt against the `tests/benchmark/` data.
 2. **Score:** Use the `tests/EVALUATION_PROMPT.md` in a new chat to grade your output.
-3. **[span_6](start_span)Prove It:** Open a Pull Request and include your **Objective Scorecard** (Keyword match rate, Metric density, and Hallucination count)[span_6](end_span). 
+3. **Prove It:** Open a Pull Request and include your **Objective Scorecard** (Keyword match rate, Metric density, and Hallucination count). 
 
 If your changes beat the current baseline on these metrics, they will be merged!
+
+## Notes
 
 - Keep prompts in sequence.
 - Provide real metrics; avoid assumptions.
