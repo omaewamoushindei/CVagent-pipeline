@@ -9,4 +9,5 @@ Output the complete, ready-to-render Markdown code of the WINNING CV. You MUST s
 Rules:
 DO NOT invent metrics. Use only what is in the Master CV.
 Ensure the top keywords (Importance 4 & 5) are naturally embedded.
+Preserve the YAML front-matter block from template_resume.md exactly at the top of the output so rendering defaults remain intact.
 Stop and wait for my review so I can save this as applications/[Company_Name]/[Position_Name]/final_tailored_resume.md.

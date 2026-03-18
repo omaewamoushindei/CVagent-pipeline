@@ -1,3 +1,17 @@
+---
+stylesheet:
+  - resume.css
+pdf_options:
+  format: A4
+  margin: 20mm 20mm 20mm 20mm
+  printBackground: true
+launch_options:
+  args:
+    - --no-sandbox
+    - --disable-setuid-sandbox
+    - --disable-dev-shm-usage
+---
+
 <div class="resume-header">
   <img src="[Profile Photo Path]" alt="Profile Photo" class="profile-pic">
   <div class="header-info">
