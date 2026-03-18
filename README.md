@@ -2,7 +2,7 @@
 
 Local workflow for turning raw career notes into tailored resume outputs.
 
-![System Architecture](assets/architecture.png)
+
 
 ## 🛠️ Environment & How to Run
 
