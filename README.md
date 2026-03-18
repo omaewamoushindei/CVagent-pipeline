@@ -30,16 +30,23 @@ This is not a traditional script-based tool. **YOU** and your **IDE's AI Copilot
 
 ## Quick Start
 
-1. Put source notes in `raw/`.
-2. Run prompts in order from `prompts/01_ingest_and_sort.md` to `prompts/07_cover_letter_and_render.md`.
-3. For each target role, create `applications/<Company_Name>/<Position_Name>/` and add `job_description.txt`.
-4. Save generated outputs (`keyword_analysis.md`, `final_tailored_resume.md`, `cover_letter.md`) in that application folder.
+> **[span_1](start_span)Live Demo:** This repository comes pre-populated with sample career data (`raw/sample.md`) and a generated application for a Data Engineer role at Atruvia AG[span_1](end_span). Explore `career_vault/` and `applications/` to see the pipeline in action before starting your own.
 
-## 🤝 Contributing (Improve Our Prompts!)
+1. **Start Fresh:** Delete the contents of `career_vault/` and existing `applications/` folders.
+2. **[span_2](start_span)Input Data:** Put your source notes in `raw/`[span_2](end_span).
+3. **[span_3](start_span)Execute:** Run prompts in order from `01_ingest_and_sort.md` to `07_cover_letter_and_render.md`[span_3](end_span).
+4. **[span_4](start_span)Targeting:** Create `applications/<Company_Name>/<Position_Name>/`, add `job_description.txt`, and save your tailored outputs there[span_4](end_span).
 
-Prompt engineering is an evolving art. If you tweak one of the files in the `prompts/` directory—for example, making the QA Auditor more aggressive, or improving the A/B testing logic—and get better ATS match rates, **please open a Pull Request!** Share your optimized prompts so we can build the ultimate open-source career agent together.
+## 🤝 Contributing (The LLMOps Framework)
 
-## Notes
+[span_5](start_span)We use a strict, objective **Evaluation Framework** to ensure prompt improvements are mathematically superior, not just subjective[span_5](end_span).
+
+### How to Propose a Change:
+1. **Benchmark:** Run your modified prompt against the `tests/benchmark/` data.
+2. **Score:** Use the `tests/EVALUATION_PROMPT.md` in a new chat to grade your output.
+3. **[span_6](start_span)Prove It:** Open a Pull Request and include your **Objective Scorecard** (Keyword match rate, Metric density, and Hallucination count)[span_6](end_span). 
+
+If your changes beat the current baseline on these metrics, they will be merged!
 
 - Keep prompts in sequence.
 - Provide real metrics; avoid assumptions.
