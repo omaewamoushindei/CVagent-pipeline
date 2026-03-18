@@ -1,36 +1,36 @@
 /* =========================================
-   CSS KONTROL PANELİ (Değişkenler)
+   CSS CONTROL PANEL (Variables)
    ========================================= */
 :root {
-  /* Font Ayarlari */
+  /* Font Settings */
   --main-font: 'Inter', 'Roboto', 'Segoe UI', Arial, sans-serif;
   --base-size: 9.8pt;
   --h1-size: 21pt;
   --h2-size: 11pt;
   
-  /* Renkler (tema degisimi icin semantik tokenlar) */
+  /* Colors (semantic tokens for theming) */
   --color-primary: #2c3e50;
   --color-text: #333333;
   --color-text-soft: #555555;
   --color-text-muted: #666666;
   --color-line: #dcdde1;
 
-  /* Geriye donuk degisken adlari */
+  /* Legacy variable names */
   --primary-color: var(--color-primary);
   --text-color: var(--color-text);
   --line-color: var(--color-line);
   
-  /* Bosluklar */
+  /* Spacing */
   --line-height: 1.33;
   --section-spacing: 11px;
   
-  /* Fotograf Ayarlari */
+  /* Photo Settings */
   --photo-size: 92px;
   --photo-radius: 50%;
 }
 
 /* =========================================
-   TEMEL SAYFA AYARLARI (A4 Formatı)
+   BASE PAGE SETTINGS (A4 Format)
    ========================================= */
 body {
   font-family: var(--main-font);
@@ -47,7 +47,7 @@ body {
   size: A4;
 }
 
-/* Global sayfa kirilim dayanimi */
+/* Global page break prevention */
 h1,
 h2,
 h3,
@@ -75,7 +75,7 @@ li {
 }
 
 /* =========================================
-   ÜST BİLGİ VE FOTOĞRAF (FlowCV Stili Header)
+   HEADER AND PROFILE PHOTO (FlowCV Style Header)
    ========================================= */
 .resume-header {
   display: flex;
@@ -108,12 +108,12 @@ li {
 }
 
 /* =========================================
-   BÖLÜM BAŞLIKLARI (Profile, Education vs.)
+   SECTION HEADINGS (Profile, Education, etc.)
    ========================================= */
 h2 {
   font-size: var(--h2-size);
   color: var(--primary-color);
-  text-transform: uppercase; /* Bütün harfleri büyük yapar */
+  text-transform: uppercase; /* Transforms all letters to uppercase */
   letter-spacing: 1.3px;
   margin-top: var(--section-spacing);
   margin-bottom: 6px;
@@ -129,7 +129,7 @@ h3 {
 }
 
 /* =========================================
-   MADDE İŞARETLERİ VE PARAGRAFLAR
+   BULLET POINTS AND PARAGRAPHS
    ========================================= */
 p {
   margin-top: 0;
@@ -146,7 +146,7 @@ li {
   margin-bottom: 1px;
 }
 
-/* Teknik yetkinlikler: iki sutunlu kompakt grid */
+/* Technical skills: two-column compact grid */
 .skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -167,7 +167,7 @@ li {
   color: #1f2f40;
 }
 
-/* Giris satiri: sol (kurum/rol), sag (lokasyon + tarih) */
+/* Entry row: left (institution/role), right (location + date) */
 .entry-line {
   display: flex;
   justify-content: space-between;
@@ -192,7 +192,7 @@ li {
 }
 
 @media print {
-  /* Markdown PDF bazli render motorlerinde hizalama farklarini azaltir */
+  /* Reduces alignment discrepancies in Markdown-to-PDF rendering engines */
   * {
     box-sizing: border-box;
   }
