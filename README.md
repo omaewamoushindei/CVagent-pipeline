@@ -2,6 +2,8 @@
 
 Local workflow for turning raw career notes into tailored resume outputs.
 
+![System Architecture](assets/architecture.png)
+
 ## 🛠️ Environment & How to Run
 
 This is not a traditional script-based tool. **YOU** and your **IDE's AI Copilot** are the engine. You will copy text from the `prompts/` folder and paste it into your AI chat window.
