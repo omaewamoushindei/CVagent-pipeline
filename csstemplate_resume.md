@@ -2,10 +2,11 @@
   <img src="assets/profile.jpg" alt="Profile Photo" class="profile-pic">
   
   <div class="header-info">
-    <h1>[Adınız Soyadınız]</h1>
-    <p>[email@example.com] | [Şehir, Ülke] | [Telefon Numarası] | [LinkedIn veya GitHub URL]</p>
+    <h1>[Your Name]</h1>
+    <p>[your.email@example.com] | [City, Country] | [Phone Number] | [LinkedIn or GitHub URL]</p>
   </div>
 </div>
+
 
 
 ## Profile
