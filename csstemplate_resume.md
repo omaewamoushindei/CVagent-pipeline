@@ -1,10 +1,12 @@
 <div class="resume-header">
-  <img src="[Profile Photo Path]" alt="Profile Photo" class="profile-pic">
+  <img src="assets/profile.jpg" alt="Profile Photo" class="profile-pic">
+  
   <div class="header-info">
-    <h1>[Your Name]</h1>
-    <p>[your.email@example.com] | [City, Country] | [Phone Number] | [Portfolio or GitHub URL]</p>
+    <h1>[Adınız Soyadınız]</h1>
+    <p>[email@example.com] | [Şehir, Ülke] | [Telefon Numarası] | [LinkedIn veya GitHub URL]</p>
   </div>
 </div>
+
 
 ## Profile
 [Your current degree or role] focused on **[Focus Area 1]**, **[Focus Area 2]**, and **[Focus Area 3]**. Built [Tool or System] automation ([Method 1], [Method 2]), translated multi-source data into management updates for [Business Outcome], and executed cross-functional communication workflows via [Collaboration Tool 1]/[Collaboration Tool 2].
