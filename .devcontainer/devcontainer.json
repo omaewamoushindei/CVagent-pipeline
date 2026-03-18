@@ -1,0 +1,5 @@
+{
+  "name": "Agentic Resume Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libnss3 libxss1 libasound2 libatk-bridge2.0-0 libgtk-3-0 libgbm-dev fonts-liberation"
+}
