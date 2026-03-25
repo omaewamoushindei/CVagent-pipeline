@@ -1,0 +1,71 @@
+
+Act as a Principal Resume Writer and Frontend CV Formatter.
+
+Task:
+Generate a complete, high-impact CV using a PRE-DEFINED content plan.
+
+Inputs:
+- Content Plan JSON (from Prompt A) — MUST be valid JSON matching `content_plan_v1`
+- Master CV (for reference only if needed)
+- template_resume.md
+
+
+---
+
+RULES:
+
+- Rewrite bullets for maximum impact (Action + Tool + Result)
+- DO NOT invent metrics
+- Prioritize high-relevance items from the plan
+- Ensure top keywords (score 4–5) are naturally embedded
+- Align tone with Contextual Intelligence Brief
+- Remove weak phrasing
+- The provided content_plan.json (derived from the Master CVs) is your ONLY source of truth for content. The provided CSS/Markdown template is merely a structural guide.
+If the template contains ANY section, line, category, or bullet point that cannot be explicitly filled using the data from the JSON, you MUST completely DELETE that structural element from your final output.
+Do NOT leave empty placeholders (e.g., [Skill 1], [Project Name]), do NOT invent information to satisfy the template's structure, and do NOT retain irrelevant template headings. Shrink the template to fit the data, never stretch the data to fit the template.
+THE ONLY EXCEPTION (IMMUTABLE HEADER): The absolute top section of the template containing personal placeholders (e.g., <img src="assets/profile.jpg">, [Your Name], [your.email@example.com], [Phone Number], [LinkedIn]) is STRICTLY IMMUTABLE. You must NEVER delete this header block. Leave these exact placeholders intact in your output. A separate downstream script will inject the user's personal data into these placeholders later.
+
+PRIMARY SOURCE:
+Use the Content Plan as the main source for selection and prioritization.
+
+SECONDARY SOURCE:
+You may use the Master CV ONLY to:
+- fill missing structured information (dates, locations, education, certifications)
+- replace placeholders
+
+DO NOT:
+- introduce new experiences
+- invent content
+- override selection decisions from the Content Plan
+
+Validation gate (STOP if any fail)
+1) The Content Plan input MUST be parseable JSON.
+2) `version` MUST equal `content_plan_v1`.
+3) `keyword_analysis_path` MUST be present and point to exactly one file.
+4) `target_dir` MUST be the parent folder of `keyword_analysis_path`.
+5) Bullet totals MUST be <= 12 and all bullets MUST have `relevance >= 0.55`.
+6) Each bullet MUST include `id`, `raw_bullet`, `relevance`, `matched_keywords`.
+
+If validation fails: STOP and ask the user to re-run Prompt A.
+---
+
+FORMAT:
+
+- Follow csstemplate_resume.md EXACTLY
+- Do NOT add YAML front-matter unless it already exists in csstemplate_resume.md. If it exists, preserve it exactly.
+- Clean hierarchy, sharp bullets
+
+---
+
+OUTPUT:
+
+Write final CV into:
+`TARGET_DIR/final_tailored_resume.md`
+
+Hard constraint
+- Do NOT create new application folders. Derive `TARGET_DIR` from the selected `keyword_analysis.md` path and write `final_tailored_resume.md` into that same folder.
+
+Implementation detail (required)
+- Set `TARGET_DIR` from the JSON field `target_dir` (not from guessing folder names).
+
+Do NOT output in chat.

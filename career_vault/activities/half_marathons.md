@@ -1,5 +1,3 @@
 # Half-Marathons
-
-## Verbatim
-
-Also, I run half-marathons! I completed the Munich Half Marathon in 2024 and 2025. Shows discipline, maybe? That's about it.
+- Completed the Munich Half Marathon (2024). [Source: raw/sample.md]
+- Completed the Munich Half Marathon (2025). [Source: raw/sample.md]
