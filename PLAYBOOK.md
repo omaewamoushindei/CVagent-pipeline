@@ -24,6 +24,10 @@ For a demo run using tracked synthetic data, start from:
 - `examples/synthetic-career-vault/`
 - `examples/sample-output/`
 
+To see the final demo pdf rendering output, run the following code from terminal
+
+- `node scripts/render_resume.mjs examples/sample-output/final_tailored_resume.md`
+
 ## Execution Rules
 
 1. Run prompts in numeric order.
@@ -77,6 +81,8 @@ Run `prompts/07_cover_letter_and_render.md`.
 Render commands:
 
 - `node scripts/render_resume.mjs applications/<Company_Name>/<Position_Name>/final_tailored_resume.md`
+
+  
 - `node scripts/render_resume.mjs examples/sample-output/final_tailored_resume.md`
 
 ## Output Checklist
