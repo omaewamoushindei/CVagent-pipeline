@@ -1,0 +1,81 @@
+NexaFin Tech Solutions • Berlin, Frankfurt
+Data Engineer (m/f/x) | Core Analytics Team
+
+Berlin, Frankfurt
+Available Immediately
+
+We are a leading digitalization partner for the European financial sector, combining decades of banking expertise with state-of-the-art information technology. Our IT solutions and services, specifically tailored to financial institutions, range from modern data center operations and our proprietary "NexaCore" banking system to intuitive app development. Utilizing forward-looking technologies such as artificial intelligence and smart data, we place a strong emphasis on process optimization, security, and strict regulatory compliance.
+
+Our mission is to enable innovative digital banking experiences for over 500 partner banks and more than 25 million end customers. To achieve this, we continuously invest in the expertise of our 4,000+ employees and embed sustainability as a core strategic objective.
+
+Our collaborative model is defined by an agile, cross-functional approach across all business units. We connect the financial markets of tomorrow – simply, digitally, and securely.
+
+For our Data & Architecture division within the Analytics Tribe, we are looking for a Data Engineer (m/f/x) to join our team in Berlin or Frankfurt, either full-time or part-time (minimum 30 hours per week). You will be part of the "Data Pioneers Squad," collaborating with cross-functional colleagues across multiple locations to drive our data infrastructure forward.
+Your Responsibilities
+
+    You will work in an agile environment with full-stack responsibility for the development, automation, and continuous improvement of a scalable data platform based on a hybrid cloud architecture (on-premise & public cloud).
+
+    You will ensure the reliable operation and advancement of our on-premises data infrastructure (S3, OpenShift, Docker, Airflow) as well as design our public cloud data platform based on Databricks.
+
+    You will build and maintain robust data pipelines for internal data consumption, focusing heavily on tenant separation, data governance, reproducibility, and high performance.
+
+    You will collaborate closely with internal stakeholders and partner banks, supporting them directly in projects on their own Databricks environments—from initial data integration to productive operation.
+
+    You will actively shape the platform architecture and toolchain design, particularly regarding infrastructure automation (Terraform), system monitoring, and CI/CD workflows.
+
+    Working within an interdisciplinary team, you will create sustainable, production-ready data solutions that drive business value.
+
+Your Profile
+
+    You hold a degree in Computer Science, Business Informatics, Mathematics, or a related field, and bring several years of hands-on experience in data engineering.
+
+    You possess deep technical knowledge of Python and excel in developing and orchestrating complex data pipelines using tools like Apache Airflow.
+
+    You have practical experience navigating containerized environments (Docker, Kubernetes/OpenShift) and are highly proficient with object-based storage (e.g., S3).
+
+    You are highly familiar with the Databricks ecosystem—including Delta Lake, Notebooks, MLflow, and Unity Catalog—and can confidently implement customized projects within these environments.
+
+    You bring solid experience with major cloud infrastructures (Azure/AWS/Google Cloud), Infrastructure-as-Code principles (Terraform), and a strong understanding of CI/CD pipelines for automated platform operations.
+
+    You are communicative, customer-oriented, and maintain a confident demeanor, even in consultative or client-facing scenarios.
+
+    You display a strong willingness to learn and continuously adapt to emerging data technologies.
+
+    You possess fluent German skills (at least C1 level) and highly proficient English skills (minimum B2 level).
+
+    Your working style is highly structured, independent, and team-oriented.
+
+Our Benefits at a Glance
+
+In addition to a competitive salary and 30 days of paid vacation, we offer:
+
+    Flexible Working: A balanced hybrid model mixing remote work with collaborative days in our modern, activity-based office environments.
+
+    Work-Life Balance: Individualized working time models including part-time options, adjustable 30-40 hour work weeks, and a lifetime working hour account (for sabbaticals or early retirement planning).
+
+    Family Support: Access to a dedicated family budget and specialized support programs for distinct family situations, such as caring for relatives.
+
+    Customizable Perks: Choose between mobility budgets, e-bike leasing, top-tier IT hardware leasing for personal use, employee savings plans, or additional paid time off.
+
+    Comprehensive Onboarding: A structured welcome program, including a dedicated mentor and regular feedback loops with your team lead to ensure a smooth start.
+
+    Health & Wellbeing: Company-sponsored fitness programs, mental health support initiatives, and subsidized healthy meals in our campus restaurants.
+
+    Continuous Growth: Dedicated development dialogues to outline your professional goals, backed by a generous annual training budget.
+
+    Job Security: As an established tech partner in a heavily regulated and systemically important industry, we offer a highly stable, long-term career environment.
+
+    Top Employer: Recognized as a "Leading Tech Employer 2025" by industry platforms, with a 92% employee recommendation rate.
+
+Please submit your application through our career portal. We look forward to meeting you!
+
+Apply now!
+
+#NexaFin #TechJobs #DataEngineering #HybridWork #AgileTech #FinTechCareers
+
+Reference Number: DAT-2026-089
+
+Contact Person:
+Sarah Jenkins
+Talent Acquisition Partner
+[Apply via Portal]

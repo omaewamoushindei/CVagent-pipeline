@@ -1,7 +1,0 @@
-Dear Hiring Team at Atruvia AG,
-
-I am applying for the Data Engineer (m/f/d) role within the Data Ignite Squad. My background aligns closely with your platform-focused mandate in the Analytics Tribe: I architected and delivered a real-time ingestion redesign using Kafka, Spark, and AWS, reduced processing latency by 40%, and lowered AWS spend by ~EUR 3,000/month through pipeline and infrastructure optimization. I also implemented GitHub Actions CI/CD and improved application performance by ~2 seconds via Redis-based optimization, demonstrating hands-on ownership of robust, production-grade data workflows.
-
-What strongly resonates with me is your emphasis on secure, compliant, and sustainable digital banking delivery at scale. In regulated environments, I focus on stable operations, clear engineering structure, and measurable outcomes, while supporting cross-functional execution from platform design through productive operation. Your hybrid-cloud data-platform context and priorities around governance, reproducibility, and performance closely match the way I execute data engineering work.
-
-I would value the opportunity to contribute to Atruvia’s data platform evolution in Karlsruhe or Münster, particularly in areas such as scalable pipeline engineering, CI/CD-enabled platform reliability, and customer-facing delivery on modern data tooling. Thank you for considering my application.

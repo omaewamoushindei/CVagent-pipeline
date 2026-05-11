@@ -2,12 +2,27 @@
 
 This document is the operator guide for running the Agentic Resume Pipeline in sequence.
 
+## Workspace Model (Important)
+
+- `examples/` contains tracked, synthetic demo material (safe to commit).
+- `raw/`, `career_vault/`, and `applications/` are local workspace folders for your private runs (do not commit personal data).
+
 ## Preconditions
 
-- `raw/` contains your unstructured source material.
-- `career_vault/` folder structure exists.
-- `prompts/` contains `01` to `07` prompt files.
-- `template_resume.md` and `resume.css` are present in the repository root.
+- For a personal run: `raw/` contains your unstructured source material.
+- Workspace folders `raw/`, `career_vault/`, and `applications/` exist.
+- Step 01 populates `career_vault/` from the source material.
+- `prompts/` contains the documented prompt sequence from `01` to `07`, including the paired `06A` / `06B` tailoring step.
+- Resume template and CSS are in:
+	- `templates/harvard.md`
+	- `templates/resume.css`
+
+For a demo run using tracked synthetic data, start from:
+
+- `examples/synthetic-raw/sample.md`
+- `examples/synthetic-job-description.txt`
+- `examples/synthetic-career-vault/`
+- `examples/sample-output/`
 
 ## Execution Rules
 
@@ -48,14 +63,21 @@ Run `prompts/05_jd_keyword_analysis.md`.
 * **Save to:** `applications/<Company_Name>/<Position_Name>/keyword_analysis.md`
 
 ### Step 6
-Run `prompts/06_dynamic_clustering_outlines.md`.
-* **Expected result:** The AI acts as a clustering algorithm, pulling the best bullet points from your Master CVs to match the job description. It proposes Strategic Outlines. You select the winner, and it generates the perfectly tailored CV in markdown.
+Run `prompts/06A_test_tailoring.md` then `prompts/06B_test_tailoring.md`.
+* **Expected result:**
+	* 06A proposes a structured tailoring plan (selection + outline) for the target role.
+	* 06B generates the tailored CV from that plan using the canonical template.
 * **Save to:** `applications/<Company_Name>/<Position_Name>/final_tailored_resume.md`
 
 ### Step 7
 Run `prompts/07_cover_letter_and_render.md`.
 * **Expected result:** A highly targeted cover letter aligned with the contextual brief, a final QA checklist, and the render command for PDF export.
 * **Save to:** `applications/<Company_Name>/<Position_Name>/cover_letter.md`
+
+Render commands:
+
+- `node scripts/render_resume.mjs applications/<Company_Name>/<Position_Name>/final_tailored_resume.md`
+- `node scripts/render_resume.mjs examples/sample-output/final_tailored_resume.md`
 
 ## Output Checklist
 
@@ -64,4 +86,5 @@ At completion, each application folder should contain:
 - `keyword_analysis.md`
 - `final_tailored_resume.md`
 - `cover_letter.md`
-- rendered PDF output
+- `qa_checklist.md`
+- rendered PDF output (for example, `final_tailored_resume.pdf`)

@@ -8,7 +8,7 @@ Non-negotiable constraints
 - Do NOT invent or infer missing personal details.
 - CRITICAL PLACEHOLDER RULE: If the Winning CV contains personal information placeholders (e.g., `[Your Name]`, `[Phone Number]`, `[Email]`), keep them intact; do NOT fail the QA for these. However, if it contains structural/content placeholders (e.g., `[Skill 1]`, `[Project Name]`), you MUST mark QA as FAIL.
 - Do NOT modify `final_tailored_resume.md` in any way.
-- Do NOT open or read `csstemplate_resume.md`, `resume.css`, or any other resume files.
+- Do NOT open or read `templates/harvard.md`, `templates/resume.css`, or any other resume files.
 - Do NOT paste long artifacts into chat. Write deliverables directly into the correct `applications/.../` folder.
 
 Step 0 — Resolve target application folder
