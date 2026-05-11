@@ -15,7 +15,7 @@ function printUsageAndExit(exitCode = 1) {
     '  MD_TO_PDF_NO_SANDBOX=1   Force Chromium --no-sandbox (useful in containers)',
     '',
     'Notes:',
-    '  - Always injects resume.css for consistent formatting.',
+    '  - Always injects templates/resume.css for consistent formatting.',
     '  - Runs md-to-pdf via npx, so Node.js must be installed.',
   ].join('\n');
   console.error(msg);
@@ -39,9 +39,9 @@ if (!fs.existsSync(inputPath)) {
   process.exit(2);
 }
 
-const cssPath = path.join(repoRoot, 'resume.css');
+const cssPath = path.join(repoRoot, 'templates', 'resume.css');
 if (!fs.existsSync(cssPath)) {
-  console.error(`ERROR: resume.css not found at repo root: ${cssPath}`);
+  console.error(`ERROR: templates/resume.css not found: ${cssPath}`);
   process.exit(3);
 }
 

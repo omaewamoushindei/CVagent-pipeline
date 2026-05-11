@@ -1,0 +1,27 @@
+# Local/private workspace folders (do not commit personal data)
+raw/*
+!raw/.gitkeep
+
+career_vault/*
+!career_vault/.gitkeep
+
+applications/*
+!applications/.gitkeep
+
+# Generated documents
+*.pdf
+*.docx
+*.html
+
+# Local environment
+.env
+.env.*
+.DS_Store
+.vscode/
+node_modules/
+
+# Render/cache outputs
+.cache/
+dist/
+build/
+tmp/
