@@ -1,99 +1,81 @@
-Atruvia AG • Karlsruhe, Münster
-Data Engineer (m/f/d) | DSIANA
+NexaFin Tech Solutions • Berlin, Frankfurt
+Data Engineer (m/f/x) | Core Analytics Team
 
+Berlin, Frankfurt
+Available Immediately
 
-Karlsruhe, Münster
+We are a leading digitalization partner for the European financial sector, combining decades of banking expertise with state-of-the-art information technology. Our IT solutions and services, specifically tailored to financial institutions, range from modern data center operations and our proprietary "NexaCore" banking system to intuitive app development. Utilizing forward-looking technologies such as artificial intelligence and smart data, we place a strong emphasis on process optimization, security, and strict regulatory compliance.
 
-immediately
+Our mission is to enable innovative digital banking experiences for over 500 partner banks and more than 25 million end customers. To achieve this, we continuously invest in the expertise of our 4,000+ employees and embed sustainability as a core strategic objective.
 
-We are the digitalization partner of the cooperative financial group, combining decades of banking expertise with state-of-the-art information technology. Our IT solutions and services, specifically tailored to banks, range from data center operations and the agree21 banking system to app development. As a German-speaking company, we utilize forward-looking technologies such as artificial intelligence and smart data, and we place great emphasis on process optimization, security, and regulatory compliance.
+Our collaborative model is defined by an agile, cross-functional approach across all business units. We connect the financial markets of tomorrow – simply, digitally, and securely.
 
-Our goal is to enable innovative digital banking and near-banking experiences for over 900 banks and more than 30 million bank customers. Therefore, we systematically invest in the expertise of our more than 5,500 employees and consider sustainability a strategic corporate objective.
+For our Data & Architecture division within the Analytics Tribe, we are looking for a Data Engineer (m/f/x) to join our team in Berlin or Frankfurt, either full-time or part-time (minimum 30 hours per week). You will be part of the "Data Pioneers Squad," collaborating with cross-functional colleagues across multiple locations to drive our data infrastructure forward.
+Your Responsibilities
 
-Our collaborative model is characterized by an agile, cross-functional approach across all business units. We connect the people and markets of tomorrow – simply, digitally, and securely.
+    You will work in an agile environment with full-stack responsibility for the development, automation, and continuous improvement of a scalable data platform based on a hybrid cloud architecture (on-premise & public cloud).
 
-For our Data, Security & Identity business unit within the Analytics Tribe, we are looking for a Data Engineer (m/f/d) to join our team in Karlsruhe or Münster, either full-time or part-time (minimum 30 hours per week). Your role will be within the Data Ignite Squad, where you will collaborate with 8 colleagues across multiple locations and with various interfaces.
+    You will ensure the reliable operation and advancement of our on-premises data infrastructure (S3, OpenShift, Docker, Airflow) as well as design our public cloud data platform based on Databricks.
 
+    You will build and maintain robust data pipelines for internal data consumption, focusing heavily on tenant separation, data governance, reproducibility, and high performance.
 
+    You will collaborate closely with internal stakeholders and partner banks, supporting them directly in projects on their own Databricks environments—from initial data integration to productive operation.
 
-Tasks with perspectives
+    You will actively shape the platform architecture and toolchain design, particularly regarding infrastructure automation (Terraform), system monitoring, and CI/CD workflows.
 
+    Working within an interdisciplinary team, you will create sustainable, production-ready data solutions that drive business value.
 
-You will work in an agile team with true full-stack responsibility for the development, automation, and further development of a scalable data platform – based on a hybrid cloud architecture (on-premise & public cloud).
+Your Profile
 
-You are responsible for the stable provision and further development of our on-premises data infrastructure (S3, OpenShift, Docker, Airflow) as well as for the design of the cloud platform based on Databricks.
+    You hold a degree in Computer Science, Business Informatics, Mathematics, or a related field, and bring several years of hands-on experience in data engineering.
 
-You develop and operate robust data pipelines for internal data supply – with a focus on tenant separation, governance, reproducibility and performance.
+    You possess deep technical knowledge of Python and excel in developing and orchestrating complex data pipelines using tools like Apache Airflow.
 
-You will work closely with our customers and support them directly in projects on their own Databricks environment – from data integration and pipeline development to productive operation.
+    You have practical experience navigating containerized environments (Docker, Kubernetes/OpenShift) and are highly proficient with object-based storage (e.g., S3).
 
-You actively contribute to the platform architecture and toolchain design – especially with regard to infrastructure automation (Terraform), monitoring and CI/CD processes.
+    You are highly familiar with the Databricks ecosystem—including Delta Lake, Notebooks, MLflow, and Unity Catalog—and can confidently implement customized projects within these environments.
 
-You are part of an agile, interdisciplinary team and, together with our team and customers, you create sustainable, production-ready data solutions.
+    You bring solid experience with major cloud infrastructures (Azure/AWS/Google Cloud), Infrastructure-as-Code principles (Terraform), and a strong understanding of CI/CD pipelines for automated platform operations.
 
+    You are communicative, customer-oriented, and maintain a confident demeanor, even in consultative or client-facing scenarios.
 
-Personality with a profile
+    You display a strong willingness to learn and continuously adapt to emerging data technologies.
 
+    You possess fluent German skills (at least C1 level) and highly proficient English skills (minimum B2 level).
 
-You have completed a relevant degree in (business) informatics, mathematics or comparable qualifications and bring several years of relevant experience in the field of data engineering
+    Your working style is highly structured, independent, and team-oriented.
 
-You have in-depth knowledge of Python as well as in the development and orchestration of data pipelines using, for example, Apache Airflow.
+Our Benefits at a Glance
 
-You have practical experience in containerized environments (Docker, OpenShift) and are confident in handling object-based storage (e.g., S3).
+In addition to a competitive salary and 30 days of paid vacation, we offer:
 
-You are familiar with development on Databricks – including Delta Lake, Notebooks, MLflow, Unity Catalog – and are able to implement customer projects on their Databricks instance.
+    Flexible Working: A balanced hybrid model mixing remote work with collaborative days in our modern, activity-based office environments.
 
-You have experience with cloud infrastructures (Azure/AWS/Google) and Infrastructure-as-Code (Terraform) as well as a good understanding of CI/CD and automated platform operation.
+    Work-Life Balance: Individualized working time models including part-time options, adjustable 30-40 hour work weeks, and a lifetime working hour account (for sabbaticals or early retirement planning).
 
-You are customer-oriented, have strong communication skills and a confident demeanor – even in consulting-related situations.
+    Family Support: Access to a dedicated family budget and specialized support programs for distinct family situations, such as caring for relatives.
 
-You are open to new technologies and have a strong willingness to continuously develop yourself.
+    Customizable Perks: Choose between mobility budgets, e-bike leasing, top-tier IT hardware leasing for personal use, employee savings plans, or additional paid time off.
 
-You have fluent German skills (at least C1 level) as well as a) fluent English skills (C1) or b) good English skills (at least B2).
+    Comprehensive Onboarding: A structured welcome program, including a dedicated mentor and regular feedback loops with your team lead to ensure a smooth start.
 
-You work in a structured, independent and team-oriented manner – both within our team and in direct collaboration with customers.
+    Health & Wellbeing: Company-sponsored fitness programs, mental health support initiatives, and subsidized healthy meals in our campus restaurants.
 
+    Continuous Growth: Dedicated development dialogues to outline your professional goals, backed by a generous annual training budget.
 
+    Job Security: As an established tech partner in a heavily regulated and systemically important industry, we offer a highly stable, long-term career environment.
 
-Our advantages at a glance:
-In addition to an attractive salary and 30 days of vacation, we offer you the following benefits:
+    Top Employer: Recognized as a "Leading Tech Employer 2025" by industry platforms, with a 92% employee recommendation rate.
 
-
-Flexible working: We work in a balanced hybrid mix of remote work and presence in modern office environments (activity-based working).
-
-Work-life balance: With our individual working time models such as part-time work, the option of full-time work between 30-40 hours and our lifetime working time account (sabbatical and/or leave of absence before retirement) you will find the right balance.
-
-Balancing private life and career: We offer you a family budget and support in special family situations such as caring for family members.
-
-Individual benefits: You have the choice between bike leasing, IT hardware leasing, employee savings plans and/or an additional day off, as well as company pension schemes and other options.
-
-Onboarding: We welcome you to our welcome event #enter; you can also expect structured onboarding with a mentor and regular feedback sessions with your People Lead.
-
-Health Management – Health, Family and Life: We support and guide you through our programs, including collaborations with the family cooperative and voiio. Enjoy a diverse range of meals in our company restaurants and connect with others through our sports activities.
-
-Career model and further training: In our development dialogues you discuss your professional, methodological and personal career goals and pursue them using our diverse range of further training opportunities.
-
-Our company values: Respectful, open and honest, responsible, supportive of one another and results-oriented – guided by team spirit and the desire for innovation and intensive knowledge exchange.
-
-Future security and job security: As a cooperative company with decades of experience, we are pioneers of digital transformation in the banking world and a systemically important employer.
-
-Kununu: We are a Top Company 2025 and proud of a Kununu score of 4.2 and a recommendation rate of ≥ 90%.
-
-
-
-Please use our application portal exclusively for your application. We look forward to hearing from you.
+Please submit your application through our career portal. We look forward to meeting you!
 
 Apply now!
 
+#NexaFin #TechJobs #DataEngineering #HybridWork #AgileTech #FinTechCareers
 
-#atruvia #it-jobs #wearehiring #LI-hybrid #LI-AT1 #Agile Software Development #Customer Focus #Innovative Thinking
+Reference Number: DAT-2026-089
 
-Reference number: 1133
-
-Contact person
-
-Laura Dewald
-
-Send an emailEmail copied!Copy email?
-
-+49 1512 8063476
+Contact Person:
+Sarah Jenkins
+Talent Acquisition Partner
+[Apply via Portal]
